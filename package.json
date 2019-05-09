@@ -1,0 +1,26 @@
+{
+  "name": "leetcode",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "./node_modules/.bin/ts-mocha -p ./tsconfig.json **/*.test.ts",
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "watch:build": "tsc --watch",
+    "watch:test": "npm test -- --watch --watch-extensions ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/expect": "^1.20.4",
+    "@types/mocha": "^5.2.6",
+    "mocha": "^6.1.4",
+    "rimraf": "^2.6.3",
+    "ts-mocha": "^6.0.0",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
