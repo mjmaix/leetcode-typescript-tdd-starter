@@ -1,8 +1,8 @@
 # LeetCode workspace written in TS / Mocha / TDD
 
-Let's make solving LeetCode problems easier.
+Let's make solving [LeetCode](https://leetcode.com/) problems easier.
 
-    In the future my aim is to have the initial test cases provided with [every free problems](https://leetcode.com/problemset/all/).
+In the future my aim is to have the initial test cases provided with [every free problems](https://leetcode.com/problemset/all/).
 
 ## Why
 
